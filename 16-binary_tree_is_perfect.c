@@ -7,6 +7,7 @@
  * Return: If tree is NULL or not perfect, 0.
  *         Otherwise, 1.
  */
+
 int binary_tree_is_perfect(const binary_tree_t *tree)
 {
 	size_t nodes = binary_tree_size(tree);
@@ -23,12 +24,14 @@ int binary_tree_is_perfect(const binary_tree_t *tree)
 	return (0);
 }
 
+
 /**
  * binary_tree_size - Measures the size of a binary tree.
  * @tree: A pointer to the root node of the tree to measure the size of.
  *
  * Return: The size of the tree.
  */
+
 size_t binary_tree_size(const binary_tree_t *tree)
 {
 	size_t size = 0;
@@ -42,12 +45,14 @@ size_t binary_tree_size(const binary_tree_t *tree)
 	return (size);
 }
 
+
 /**
  * binary_tree_height - Measures the height of a binary tree.
  * @tree: A pointer to the root node of the tree to measure the height.
  *
  * Return: If tree is NULL, your function must return 0, else return height.
  */
+
 size_t binary_tree_height(const binary_tree_t *tree)
 {
 	size_t left = 0, right = 0;
@@ -72,12 +77,14 @@ size_t binary_tree_height(const binary_tree_t *tree)
 	return (0);
 }
 
+
 /**
  * power - makes power.
  * @base: base.
  * @exponent: power.
  * Return: power
  */
+
 size_t power(size_t base, size_t exponent)
 {
 	size_t result = 1;
