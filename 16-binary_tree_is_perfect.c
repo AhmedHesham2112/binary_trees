@@ -88,8 +88,9 @@ size_t binary_tree_height(const binary_tree_t *tree)
 size_t power(size_t base, size_t exponent)
 {
 	size_t result = 1;
+	size_t i = 1;
 
-	for (size_t i = 1; i <= exponent; i++)
+	for (i = 1; i <= exponent; i++)
 	{
 		result *= base;
 	}
