@@ -4,6 +4,7 @@
 #include <stddef.h>
 #include <stdlib.h>
 #include <stdio.h>
+#include <math.h>
 
 /**
  * struct binary_tree_s - Binary tree node
@@ -42,5 +43,6 @@ int binary_tree_is_perfect(const binary_tree_t *tree);
 binary_tree_t *binary_tree_sibling(binary_tree_t *node);
 binary_tree_t *binary_tree_uncle(binary_tree_t *node);
 int is_full_recursive(const binary_tree_t *tree);
+size_t power(size_t base, size_t exponent);
 
 #endif
