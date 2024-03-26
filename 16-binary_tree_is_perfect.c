@@ -1,5 +1,4 @@
 #include "binary_trees.h"
-#include <math.h>
 
 /**
  * binary_tree_is_perfect - Checks if a binary tree is perfect.
